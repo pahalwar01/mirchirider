@@ -1,0 +1,301 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+
+.col-1{
+    width: 8.33%;
+}
+
+.col-2{
+    width: 16.66%;
+}
+
+.col-3{
+    width: 25%;
+    border-width: 0.5px;
+    border-style: solid;
+}
+
+.col-4{
+    width: 33.33%;
+}
+
+.col-5{
+    width: 41.66%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+    width: 58.33%;
+}
+
+.col-8{
+    width: 66.66;
+}
+
+.col-9{
+    width: 75%;
+}
+
+.col-10{
+    width: 83.33%;
+}
+
+.col-11{
+    width: 91.66%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+header, nav, section, footer{
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+}
+
+header{
+    height: 100px;
+    background-color: yellow;
+}
+
+.logo{    
+    float: left;
+    height: 50px;
+    width: 100px;
+}
+
+h1{
+    color: red;
+    font-family: sans-serif;
+}
+
+nav{
+    height: 50px;
+    background-color: red;
+}
+
+/* Section Coding Start*/
+
+section{
+    min-height: 100%;
+    background-color: yellow;
+    padding-bottom: 30px;
+}
+
+.rider-image{
+    border-width: 1px;
+    border-style: dotted;
+    border-color: red;
+}
+
+.add-work{
+    height: 50px;
+    width: 90px;
+    color: white;
+    background-color: green;
+}
+
+
+/* Section Coding End*/
+
+footer{
+    height: 50px;
+    background-color: brown;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    float: left;
+    text-align: center;
+    padding-top: 13px;
+    height: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/* mobile responsive start*/
+
+@media only screen and (max-width: 600px)
+{
+
+    header{
+        height: 80px;
+    }
+
+    .col-3{
+        width: 100%;
+    }
+
+    nav{
+        height: 50px;
+        background-color: blue;
+    }
+
+    
+
+}
+
+/* mobile responsive end*/
+
+/* tablet responsive start*/
+
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+    header{
+        height: 100px;
+    }
+
+    .col-3{
+        width: 50%;
+    }
+
+    nav{
+        background-color: pink;
+        height: 100px;
+    }
+
+    section{
+        background-color: blue;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    footer{
+        font-family: sans-serif;
+        font-weight: normal;
+    }
+
+
+
+}
+
+/* tablet responsive end*/
+
+
+
+/* login page stylesheet start*/
+
+.login-form{
+    padding-top: 90px;
+    text-align: center;
+}
+
+#username-lable,#password-lable{
+    font-family: sans-serif;
+    font-size: large;
+    color: red;
+}
+
+#login-btn{
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    color: white;
+}
+
+.login-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 50%;
+}
+
+/* login page stylesheet End*/
+
+/*Add work page codding start*/
+
+.addwork-fieldset{
+    height: auto;
+}
+
+.form-header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: red;
+}
+
+.add-work-input{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: blue;
+}
+
+.ridername, .sendername, .worktype, .workdate, .workfrom, .workto, .totalkm{
+    font-size: 15px;
+}
+
+
+.submit-btn{
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    float: right;
+    margin-right: 30px;
+}
+
+.preview-btn{
+    font-size: 22px;
+    background-color: black;
+    color: white;
+}
+
+.back-btn{
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    float: left;
+    margin-left: 30px;
+}
+
+/*Add work page codding start*/
+
+/*Preview page coding start*/
+#add-preview{
+    width: "col-12";
+    height: 720px;
+    border: 0.1px solid green;
+}
+
+#result-preview{
+    width: "col-12";
+    height: 680px;
+    border: 0.1px solid green;
+    margin-bottom: 5px;
+}
+
+#one, #two, #three, #four, #five, #six, #seven{
+    font-size: 25px;
+    font-style: normal;
+    font-family: sans-serif;
+    color: black;
+}
+
+/*Preview page coding end*/
+
+/* Jobs View page coding start */
+
+.marquee-text{
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+/* Jobs View page coding end */

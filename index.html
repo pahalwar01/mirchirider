@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta lang="en-US">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Homepage</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+<body>
+    <section>
+        <div class="col-12">
+                <img src="image/logo.png" alt="Mirchi_logo" class="login-logo">
+            <form class="login-form">
+                <h1>Login</h1>
+                <br>
+                <label for="username" id="username-lable">Username:</label>
+                <br>
+                <input type="text" id="username" name="username" required>
+                <br><br>
+                <label for="password" id="password-lable">Password:</label>
+                <br>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <input type="submit" value="Login" id="login-btn" onclick = "return login()">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
