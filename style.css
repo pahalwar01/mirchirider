@@ -84,7 +84,8 @@ nav{
 /* Section Coding Start*/
 
 section{
-    min-height: 100%;
+    /*min-height: 100%;*/
+    height: 900px;
     background-color: yellow;
     padding-bottom: 30px;
 }
