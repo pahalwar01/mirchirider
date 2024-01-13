@@ -237,7 +237,7 @@ a{
     color: blue;
 }
 
-.ridername, .sendername, .worktype, .workdate, .workfrom, .workto, .totalkm{
+#ridername, #sendername, #worktype, #workdate, #workfrom, #workto, #totalkm{
     font-size: 15px;
 }
 
