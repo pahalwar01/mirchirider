@@ -39,40 +39,56 @@ function login()
 // add work preview page cooding start
 function add_job_preview()
 {
-    var a = document.getElementsByClassName("ridername").value;
-    var b = document.getElementsByClassName("sendername").value;
-    var c = document.getElementsByClassName("worktype").value;
-    var d = document.getElementsByClassName("workdate").value;
-    var e = document.getElementsByClassName("workfrom").value;
-    var f = document.getElementsByClassName("workto").value;
-    var g = document.getElementsByClassName("totalkm").value;
+    var a = document.getElementsById("ridername").value;
+    var b = document.getElementsById("sendername").value;
+    var c = document.getElementsById("worktype").value;
+    var d = document.getElementsById("workdate").value;
+    var e = document.getElementsById("workfrom").value;
+    var f = document.getElementsById("workto").value;
+    var g = document.getElementsById("totalkm").value;
+    rider(a);
+    sendername(b);
+    worktype(c);
+    workdate(d);
+    workfrom(e);
+    workto(f);
+    totalkm(g);
+    return false;
+}
 
-    var h = document.getElementById("one");
-        h.innerHTML = a;
-        return false;
-    
-    var i = document.getElementById("two");
-        i.innerHTML = b;
-        return false;
-
-    var j = document.getElementById("three");
-        j.innerHTML = c;
-        return false;
-
-    var k = document.getElementById("four");
-        k.innerHTML = d;
-        return false;
-
-    var l = document.getElementById("five");
-        l.innerHTML = e;
-        return false;
-
-    var m = document.getElementById("six");
-        m.innerHTML = f;
-        return false;
-
-    var n = document.getElementById("seven");
-        n.innerHTML = g;
-        return false;
+function rider(a)
+{
+    var result = document.getElementById("one");
+    result.innerHTML = a;
+}
+function sendername(b)
+{
+    var result = document.getElementById("two");
+    result.innerHTML = b;
+}
+function worktype(c)
+{
+    var result = document.getElementById("three");
+    result.innerHTML = c;
+}
+function workdate(d)
+{
+    var result = document.getElementById("four");
+    result.innerHTML = d;
+}
+function workfrom(e)
+{
+    var result = document.getElementById("five");
+    result.innerHTML = e;
+}
+function workto(f)
+{
+    var result = document.getElementById("six");
+    result.innerHTML = f;
+}
+function totalkm(g)
+{
+    var result = document.getElementById("seven");
+    result.innerHTML = g;
 }
 //add work preview page cooding end
