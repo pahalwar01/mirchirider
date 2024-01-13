@@ -3,19 +3,7 @@
 and look likes this....*/
 
 //Login page coding start
-/*
-function login()
-{
-    var user = document.getElementById("username").value;
-    var pass = document.getElementById("password").value;
-    var check = user =="admin" && pass =="admin" || user =="user" && pass =="user" ? "login sucess":"Failed";
-    if (check =="login sucess") {
-        window.location.href='index.html';
-        
-    }
-    return false;
-}
-*/
+
 function login()
 {
     var user = document.getElementById("username").value;
