@@ -46,47 +46,48 @@ function add_job_preview()
     var e = document.getElementsById("workfrom").value;
     var f = document.getElementsById("workto").value;
     var g = document.getElementsById("totalkm").value;
-    rider(a);
-    sendername(b);
-    worktype(c);
-    workdate(d);
-    workfrom(e);
-    workto(f);
-    totalkm(g);
-    return false;
+    rider(a,b,c,d,e,f,g);
+    sendername(a,b,c,d,e,f,g);
+    worktype(a,b,c,d,e,f,g);
+    workdate(a,b,c,d,e,f,g);
+    workfrom(a,b,c,d,e,f,g);
+    workto(a,b,c,d,e,f,g);
+    totalkm(a,b,c,d,e,f,g);
+    window.open("dharampalpreview.html");
+    return false;    
 }
 
-function rider(a)
+function rider(a,b,c,d,e,f,g)
 {
     var result = document.getElementById("one");
     result.innerHTML = a;
 }
-function sendername(b)
+function sendername(a,b,c,d,e,f,g)
 {
     var result = document.getElementById("two");
     result.innerHTML = b;
 }
-function worktype(c)
+function worktype(a,b,c,d,e,f,g)
 {
     var result = document.getElementById("three");
     result.innerHTML = c;
 }
-function workdate(d)
+function workdate(a,b,c,d,e,f,g)
 {
     var result = document.getElementById("four");
     result.innerHTML = d;
 }
-function workfrom(e)
+function workfrom(a,b,c,d,e,f,g)
 {
     var result = document.getElementById("five");
     result.innerHTML = e;
 }
-function workto(f)
+function workto(a,b,c,d,e,f,g)
 {
     var result = document.getElementById("six");
     result.innerHTML = f;
 }
-function totalkm(g)
+function totalkm(a,b,c,d,e,f,g)
 {
     var result = document.getElementById("seven");
     result.innerHTML = g;
