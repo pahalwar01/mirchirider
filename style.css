@@ -95,10 +95,8 @@ section{
     border-color: red;
 }
 
-.admin-image{
-    border-width: 1px;
-    border-style: dotted;
-    border-color: red;
+.panel-image{
+    width: 90px;
 }
 
 .add-work{
