@@ -13,9 +13,9 @@
 }
 
 .col-3{
-    width: 25%;
+    width: 25%;/*
     border-width: 0.5px;
-    border-style: solid;
+    border-style: solid;*/
 }
 
 .col-4{
@@ -95,6 +95,12 @@ section{
     border-color: red;
 }
 
+.admin-image{
+    border-width: 1px;
+    border-style: dotted;
+    border-color: red;
+}
+
 .add-work{
     height: 50px;
     width: 90px;
@@ -139,7 +145,7 @@ a{
     }
 
     .col-3{
-        width: 100%;
+        width: 25%;
     }
 
     nav{
