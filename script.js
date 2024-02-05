@@ -13,7 +13,7 @@ function login()
     var second = user=="lalit" && pass=="1234"? "login sucess": "Failed";
     var third = user=="karan" && pass=="1234"? "login sucess": "Failed";
     if (admin=="login sucess") {
-        window.location.href='adminmain.html';
+        window.location.href='adminmain.html': window.alert("Login Failed");
     } 
     if (first=="login sucess") {
         window.location.href='dharampalmain.html';
