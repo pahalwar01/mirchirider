@@ -9,9 +9,9 @@ function login()
     var user = document.getElementById("username").value;
     var pass = document.getElementById("password").value;
     var admin = user =="admin" && pass =="admin"? "login sucess":"Failed";
-    var first = user=="dharampal" && pass=="1234"? "login sucess": "Failed";
-    var second = user=="lalit" && pass=="1234"? "login sucess": "Failed";
-    var third = user=="karan" && pass=="1234"? "login sucess": "Failed";
+    var first = user=="dharampal" && pass=="123"? "login sucess": "Failed";
+    var second = user=="lalit" && pass=="123"? "login sucess": "Failed";
+    var third = user=="karan" && pass=="123"? "login sucess": "Failed";
     if (admin=="login sucess") {
         window.location.href='adminmain.html';
     } 
