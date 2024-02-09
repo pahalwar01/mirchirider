@@ -35,7 +35,7 @@
 }
 
 .col-8{
-    width: 66.66;
+    width: 66.66%;
 }
 
 .col-9{
@@ -222,6 +222,12 @@ a{
 }
 
 /* login page stylesheet End*/
+
+/* Admin Page stylesheet Start*/
+
+
+
+/*Admin Page stylesheet End*/
 
 /*Add work page codding start*/
 
