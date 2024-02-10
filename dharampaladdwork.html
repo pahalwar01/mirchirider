@@ -39,8 +39,9 @@
         <!--Section coding start-->
         <section class="col-12">
             <br><br>
+        <!--
         <form class="add-work-input">
-        <fieldset class="addwork-fieldset">
+        <fieldset id="addwork-fieldset">
             <legend class="form-header">Fill Your Entry</legend><br>
             Rider Name<br>
             <p id="ridername">Dharampal</p>
@@ -57,10 +58,53 @@
             <textarea type="text" name="work-end" id="workto"></textarea><br><br>
             Total K.M.<br>
             <input type="number" name="total-km" id="totalkm"><br><br> 
-            <center><button class="preview-btn" onclick="return add_job_preview()">Preview</button></center>
+            <center><button id="preview-btn" onclick="dpreview(); return false">Preview</button></center>
         </fieldset>
-        </form>      
-        
+        </form>
+        -->
+        <center>
+        <form class="add-work-input" name="dharampaladdjob">
+            <fieldset id="addwork-fieldset">
+                <legend class="form-header">Fill Your Entry</legend><br>
+                Rider Name <br>
+                <input type="text" name="dharampal" id="ridername" value="Dharampal">
+                <br><br>
+                Sender Name<br>
+                <input type="text" name="sender" id="sendername"><br><br>
+                Type of work<br>
+                <input type="text" name="work" id="worktype"><br><br>
+                Date<br>
+                <input type="date" name="date" id="workdate"><br><br>
+                From<br>
+                <textarea type="text" name="from" id="workfrom"></textarea><br><br>
+                To<br>
+                <textarea type="text" name="to" id="workto"></textarea><br><br>
+                Total K.M.<br>
+                <input type="number" name="km" id="totalkm"><br><br>
+                <button id="preview-btn" onclick="dpreview();return false">Preview</button>
+            </fieldset>
+        </form>
+        </center>
+        <form name="preview" id="preview" style="display: none;">
+            <fieldset>
+                Rider Name <br>
+                <p id="rider"></p><br>
+                Sender Name <br>
+                <p id="sender"></p><br>
+                Type of Work <br>
+                <p id="work"></p><br>
+                Date <br>
+                <p id="date"></p><br>
+                From <br>
+                <p id="from"></p><br>
+                To <br>
+                <p id="to"></p>
+                Total K.M. <br>
+                <p id="km"></p><br><br>
+                <button id="back-btn" style="width: 100px;">Edit</button>
+                <button id="Submit-btn" style="width: 100px;">Submit</button>
+            </fieldset>
+        </form>
         </section>
         <!--Section coding end-->
 
