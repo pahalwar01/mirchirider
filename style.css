@@ -239,7 +239,7 @@ a{
 
 /*Add work page codding start*/
 
-.addwork-fieldset{
+#addwork-fieldset{
     height: auto;
 }
 
@@ -268,19 +268,33 @@ a{
     margin-right: 30px;
 }
 
-.preview-btn{
+#preview{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+}
+
+
+#preview-btn{
     font-size: 22px;
     background-color: black;
     color: white;
 }
 
-.back-btn{
+#back-btn{
     font-size: 22px;
     background-color: black;
     color: white;
     float: left;
-    margin-left: 30px;
 }
+
+#Submit-btn{
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    float: right;
+}
+
 
 /*Add work page codding start*/
 
