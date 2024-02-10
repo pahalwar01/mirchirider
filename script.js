@@ -37,59 +37,19 @@ function login()
 
 
 // add work preview page cooding start
-function add_job_preview()
+
+function dpreview()
 {
-    var a = document.getElementsById("ridername").value;
-    var b = document.getElementsById("sendername").value;
-    var c = document.getElementsById("worktype").value;
-    var d = document.getElementsById("workdate").value;
-    var e = document.getElementsById("workfrom").value;
-    var f = document.getElementsById("workto").value;
-    var g = document.getElementsById("totalkm").value;
-    rider(a,b,c,d,e,f,g);
-    sendername(a,b,c,d,e,f,g);
-    worktype(a,b,c,d,e,f,g);
-    workdate(a,b,c,d,e,f,g);
-    workfrom(a,b,c,d,e,f,g);
-    workto(a,b,c,d,e,f,g);
-    totalkm(a,b,c,d,e,f,g);
-    window.open("dharampalpreview.html");
-    return false;    
+    document.getElementById("rider").innerHTML=document.getElementById("ridername").value;
+    document.getElementById("sender").innerHTML=document.getElementById("sendername").value;
+    document.getElementById("work").innerHTML=document.getElementById("worktype").value;
+    document.getElementById("date").innerHTML=document.getElementById("workdate").value;
+    document.getElementById("from").innerHTML=document.getElementById("workfrom").value;
+    document.getElementById("to").innerHTML=document.getElementById("workto").value;
+    document.getElementById("km").innerHTML=document.getElementById("totalkm").value;
+    document.getElementById("addwork-fieldset").style.display="none";
+    document.getElementById("preview").style.display="block";
 }
 
-function rider(a,b,c,d,e,f,g)
-{
-    var result = document.getElementById("one");
-    result.innerHTML = a;
-}
-function sendername(a,b,c,d,e,f,g)
-{
-    var result = document.getElementById("two");
-    result.innerHTML = b;
-}
-function worktype(a,b,c,d,e,f,g)
-{
-    var result = document.getElementById("three");
-    result.innerHTML = c;
-}
-function workdate(a,b,c,d,e,f,g)
-{
-    var result = document.getElementById("four");
-    result.innerHTML = d;
-}
-function workfrom(a,b,c,d,e,f,g)
-{
-    var result = document.getElementById("five");
-    result.innerHTML = e;
-}
-function workto(a,b,c,d,e,f,g)
-{
-    var result = document.getElementById("six");
-    result.innerHTML = f;
-}
-function totalkm(a,b,c,d,e,f,g)
-{
-    var result = document.getElementById("seven");
-    result.innerHTML = g;
-}
+
 //add work preview page cooding end
