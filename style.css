@@ -100,6 +100,7 @@ section{
 
 .panel-image{
     width: 90px;
+    height: 100px;
 }
 
 .add-work{
@@ -228,6 +229,10 @@ a{
 
 /* Admin Page stylesheet Start*/
 
+#location{
+    height: 100px;
+    width: 100px;
+}
 
 
 /*Admin Page stylesheet End*/
