@@ -37,32 +37,7 @@
         <!--Navigation coding end-->    
 
         <!--Section coding start-->
-        <section class="col-12">
-            <br><br>
-        <!--
-        <form class="add-work-input">
-        <fieldset id="addwork-fieldset">
-            <legend class="form-header">Fill Your Entry</legend><br>
-            Rider Name<br>
-            <p id="ridername">Dharampal</p>
-            <br><br>
-            Sender Name<br>
-            <input type="text" name="sender-name" id="sendername"><br><br>
-            Type of work<br>
-            <input type="text" name="type-of-work" id="worktype"><br><br>
-            Date<br>
-            <input type="date" name="work-date" id="workdate"><br><br>
-            From<br>
-            <textarea type="text" name="work-start" id="workfrom"></textarea><br><br>
-            To<br>
-            <textarea type="text" name="work-end" id="workto"></textarea><br><br>
-            Total K.M.<br>
-            <input type="number" name="total-km" id="totalkm"><br><br> 
-            <center><button id="preview-btn" onclick="dpreview(); return false">Preview</button></center>
-        </fieldset>
-        </form>
-        -->
-        <center>
+        <section class="col-12" style="text-align: center;">
         <form class="add-work-input" name="submit-to-google-sheet">
             <fieldset id="addwork-fieldset">
                 <legend class="form-header">Fill Your Entry</legend><br>
@@ -81,34 +56,12 @@
                 <textarea type="text" name="to" id="workto" required></textarea><br><br>
                 Total K.M.<br>
                 <input type="number" name="km" id="totalkm" required><br><br>
-                <button id="preview-btn">Back</button>
                 <button id="preview-btn" onclick="dpreview();return false">Submit</button><br>
                 
                 <span id="success"></span>
             </fieldset>
         </form>
-        </center>
-        <!--
-        <form name="preview" id="preview" style="display: none;">
-            <fieldset>
-                Rider Name <br>
-                <p id="rider"></p><br>
-                Sender Name <br>
-                <p id="sender"></p><br>
-                Date <br>
-                <p id="date"></p><br>
-                Type of Work <br>
-                <p id="work"></p><br>
-                From <br>
-                <p id="from"></p><br>
-                To <br>
-                <p id="to"></p>
-                Total K.M. <br>
-                <p id="km"></p><br><br>
-                <button id="back-btn" style="width: 100px;">Edit</button>
-                <button id="Submit-btn" style="width: 100px;">Submit</button>
-            </fieldset>
-        </form>-->
+
 
         <!--Submit process coding Start-->
 
@@ -130,9 +83,7 @@
                 })
                 .catch(error => console.error('Error!', error.message))
             })
-          </script>
-
-
+        </script>
 
         <!--Submit process coding end-->
 
