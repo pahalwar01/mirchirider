@@ -51,5 +51,6 @@ function dpreview()
     document.getElementById("preview").style.display="block";
 }
 
-
 //add work preview page cooding end
+
+//Job submit data coding start
