@@ -2,4 +2,7 @@ email - newusermmc2015@gmail.com
 password - newuser123
 all entry of rider app
 
-need to create excel file as accordingly the webapp 
+
+Rider appscript URL
+https://script.google.com/macros/s/AKfycbydkPC0-s6ky0GdcqPwfEPpBAUFgXQ6pzq6_6tPhSL48xBr5ifD3ASgz6B58y-HoItO1A/exec
+
