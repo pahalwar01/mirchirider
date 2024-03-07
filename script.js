@@ -38,18 +38,7 @@ function login()
 
 // add work preview page cooding start
 
-function dpreview()
-{
-    document.getElementById("rider").innerHTML=document.getElementById("ridername").value;
-    document.getElementById("sender").innerHTML=document.getElementById("sendername").value;
-    document.getElementById("work").innerHTML=document.getElementById("worktype").value;
-    document.getElementById("date").innerHTML=document.getElementById("workdate").value;
-    document.getElementById("from").innerHTML=document.getElementById("workfrom").value;
-    document.getElementById("to").innerHTML=document.getElementById("workto").value;
-    document.getElementById("km").innerHTML=document.getElementById("totalkm").value;
-    document.getElementById("addwork-fieldset").style.display="none";
-    document.getElementById("preview").style.display="block";
-}
+
 
 //add work preview page cooding end
 
