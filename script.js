@@ -34,12 +34,4 @@ function login()
 //Login page coding end
 
 
-
-
-// add work preview page cooding start
-
-
-
-//add work preview page cooding end
-
 //Job submit data coding start
