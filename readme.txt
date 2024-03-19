@@ -15,4 +15,5 @@ https://script.google.com/macros/s/AKfycbydkPC0-s6ky0GdcqPwfEPpBAUFgXQ6pzq6_6tPh
 google sheet - files- share- webapp- embeded
 
 
-dharampal iframe data need to copy in karan and lalit job view page
+dharampal iframe for location
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR7woZy9d8HSFhhdTebakHbzs27ZeYZmEpvr85jmyx_d2xb0ddWFGgn8G3-DwZxKHbeRa8nCvCgiGOp/pubhtml?gid=202716689&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
