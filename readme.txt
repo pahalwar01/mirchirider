@@ -15,5 +15,5 @@ https://script.google.com/macros/s/AKfycbydkPC0-s6ky0GdcqPwfEPpBAUFgXQ6pzq6_6tPh
 google sheet - files- share- webapp- embeded
 
 
-dharampal iframe for location
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR7woZy9d8HSFhhdTebakHbzs27ZeYZmEpvr85jmyx_d2xb0ddWFGgn8G3-DwZxKHbeRa8nCvCgiGOp/pubhtml?gid=202716689&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+googel map iframe for location
+<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14017.958863383856!2d77.3439278!3d28.5550538!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1710875476844!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
