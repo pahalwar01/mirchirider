@@ -3,7 +3,7 @@
 and look likes this....*/
 
 //Login page coding start
-
+/*
 function login()
 {
     var user = document.getElementById("username").value;
@@ -26,7 +26,34 @@ function login()
     }
     return false;
 }
+*/
 
+function login()
+{
+var form = document.getElementById("form");
+var user = document.getElementById("username");
+var pass = document.getElementById("password");
+var show = document.getElementById("result");
+
+form.onsubmit = function()
+{
+    if(user.value == "rohit") 
+    {
+        if(pass.value == "123")
+        {
+            window.alert("Login Success");
+        }
+        else
+        {
+            window.alert("Wrong {Password");
+        }
+    }
+    else
+    {
+        window.alert("User not found");
+    }
+}
+}
 
 
 
