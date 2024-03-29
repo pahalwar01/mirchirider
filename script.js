@@ -31,64 +31,17 @@ function login()
 {
     var user = document.getElementById("username").value;
     var pass = document.getElementById("password").value;
-    var admin = user =="admin" && pass=="admin@123"? "login sucess":"Failed";
-    var dharampal = user=="dharampal" && pass=="dharampal@123"? "login sucess": "Failed";
-    var lalit = user=="lalit" && pass=="lalit@123"? "login sucess": "Failed";
-    var karan = user=="karan" && pass=="karan@123"? "login sucess": "Failed";
-    if (admin=="login sucess")
+    var admin = user =="admin" && pass =="admin@123"? "login sucess":"Failed";
+    if (admin=="login sucess") 
     {
-        window.location.href="adminmain.html";
-    }
-    if (admin=="Failed") 
-    {
-        if(user!="admin")
+        if(admin=="login sucess")
         {
-            if(user!="admin")
-            {
-                window.alert("User not found");
-            }
+            window.location.href='adminmain.html';
         }
-        if(pass!="admin@123")
-        {
-            if(pass!="admin@123")
-            {
-                window.alert("Wrong Password");
-            }
-        }
+        if()
     } 
-    if (dharampal=="login sucess") 
-    {
-        window.location.href='dharampalmain.html';
-    }
-    if(dharampal=="Failed")
-    {
-        if(user!="dharampal")
-        {
-            if(user!="dharampal")
-            {
-                window.alert("User not found");
-            }
-        }
-        if(pass!="dharampal@123")
-        {
-            if(pass!="dharampal@123")
-            {
-                window.alert("Wrong Password");
-            }
-        }
-    }
-    if (lalit=="login sucess") 
-    {
-        window.location.href='lalitmain.html';
-    } 
-    if (karan=="login sucess") 
-    {
-        window.location.href='karanmain.html';
-    }
     return false;
 }
-
-
 
 
 //Login page coding end
