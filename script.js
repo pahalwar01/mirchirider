@@ -32,16 +32,46 @@ function login()
     var user = document.getElementById("username").value;
     var pass = document.getElementById("password").value;
     var admin = user =="admin" && pass =="admin@123"? "login sucess":"Failed";
-    if (admin=="login sucess") 
+    var dharampal = user =="dharampal" && pass =="dharampal@123"? "login sucess":"Failed";
+    if (admin=="Failed") 
     {
-        if(admin=="login sucess")
+        if (user!="admin")
         {
-            window.location.href='adminmain.html';
+            window.alert("User Not Found");
         }
-        if()
-    } 
+        if (pass!="admin@123")
+        {
+            window.alert("Wrong Password");
+        }
+    }
+
+    if (dharampal=="Failed") 
+    {
+        if (user!="dharampal")
+        {
+            window.alert("User Not Found");
+        }
+        if (pass!="dharampal@123")
+        {
+            window.alert("Wrong Password");
+        }   
+    }
+     
+    if (admin=="login sucess")
+    {
+        window.location.href="adminmain.html";
+    }
+    if (dharampal=="login sucess")
+    {
+        window.location.href="dharampalmain.html";
+    }
+    
+
+    
     return false;
 }
+
+
 
 
 //Login page coding end
