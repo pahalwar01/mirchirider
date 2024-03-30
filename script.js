@@ -3,7 +3,7 @@
 and look likes this....*/
 
 //Login page coding start
-/*
+
 function login()
 {
     var user = document.getElementById("username").value;
@@ -26,7 +26,7 @@ function login()
     }
     return false;
 }
-*/
+/*
 function login()
 {
     var user = document.getElementById("username").value;
@@ -70,7 +70,7 @@ function login()
     
     return false;
 }
-
+*/
 
 
 
