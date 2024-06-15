@@ -26,55 +26,11 @@ function login()
     }
     return false;
 }
-/*
-function login()
+
+//Logout Code
+var logout = document.getElementById("logout");
+logout.onclick = function()
 {
-    var user = document.getElementById("username").value;
-    var pass = document.getElementById("password").value;
-    var admin = user =="admin" && pass =="admin@123"? "login sucess":"Failed";
-    var dharampal = user =="dharampal" && pass =="dharampal@123"? "login sucess":"Failed";
-    if (admin=="Failed") 
-    {
-        if (user!="admin")
-        {
-            window.alert("User Not Found");
-        }
-        if (pass!="admin@123")
-        {
-            window.alert("Wrong Password");
-        }
-    }
-
-    if (dharampal=="Failed") 
-    {
-        if (user!="dharampal")
-        {
-            window.alert("User Not Found");
-        }
-        if (pass!="dharampal@123")
-        {
-            window.alert("Wrong Password");
-        }   
-    }
-     
-    if (admin=="login sucess")
-    {
-        window.location.href="adminmain.html";
-    }
-    if (dharampal=="login sucess")
-    {
-        window.location.href="dharampalmain.html";
-    }
+    sessionStorage.clear();
     
-
-    
-    return false;
 }
-*/
-
-
-
-//Login page coding end
-
-
-//Job submit data coding start
