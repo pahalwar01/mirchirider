@@ -1,6 +1,6 @@
 // this is single line comenter.
 /* this is multi linecommenter
-and look likes this....*/
+and look likes this....  */
 
 //Login page coding start
 
